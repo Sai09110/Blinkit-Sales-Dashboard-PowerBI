@@ -1,0 +1,13 @@
+// Blinkit Sales Dashboard - DAX Measures
+// Add these measures to the Blinkit table
+// ============================================================================
+
+Total Sales = SUM(blinkit_sales_raw[Sales])
+
+Average Sales = AVERAGE(blinkit_sales_raw[Sales])
+
+No of Items = COUNTROWS(blinkit_sales_raw)
+
+Average Rating = AVERAGE(blinkit_sales_raw[Rating])
+
+  
